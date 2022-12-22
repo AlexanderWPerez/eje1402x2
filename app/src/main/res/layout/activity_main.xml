@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="379dp"
-        android:layout_height="255dp"
+        android:layout_width="384dp"
+        android:layout_height="332dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,11 +56,19 @@
             android:inputType="textPersonName" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="58dp"
             android:onClick="Consulta"
             android:text="Inicio"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnInsertar"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:onClick="EnvioPrueba"
+            android:text="Button"
             android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
